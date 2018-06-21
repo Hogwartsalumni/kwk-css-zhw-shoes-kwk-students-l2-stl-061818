@@ -242,6 +242,7 @@ iframe {
 	a.gplus { background-position: 0 -80px; }
 	a.gplus:hover { background-position: -40px -80px; }
 	a.gplus:active { background-position: -80px -80px; }
+	
 
 /********** Content Area **********/
 
@@ -263,6 +264,10 @@ iframe {
 		color: #555;
 		text-decoration: underline;
 	}
+	
+	.shadow {
+	  column-count: 2;
+	}
 
 /********** Details **********/
 
@@ -277,6 +282,11 @@ iframe {
 	background: -o-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* IE10+ */
 	background: linear-gradient(to bottom,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* W3C */
+	column-count: 3;
+	column-gap: 10px;
+	column-rule: 1px solid gray;
+	column-width: 20px;
+	column-span: none;
 }
 
 	#details a:link, #details a:visited {
